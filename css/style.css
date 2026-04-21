@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('galeria.css');
+@import url('cards.css');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+header{
+    width: 100%;
+    padding-bottom: 20px;
+    top: 0;
+    z-index: 1000;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+body{ 
+   
+min-height: 100vh; 
+color:white;
+background-color:black;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+
+background-image: url("../img/Preto.jpg");
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 80%;
+}
+
+
+
+main{
+    flex:1;
+max-width: 1100px;
+margin: 40px auto;
+padding: 40px 20px;
+background: rgba(0,0,0,0.5);
+backdrop-filter: blur(8px);
+border-radius: 15px
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+    
+.footer{
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c360d4d3                   ;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin:10px 5px;
+    flex-wrap:wrap;
+
+}
+
+.icon-elem{
+    list-style: none;
+}
+
+.icon{
+    color:white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+}
+
+
+
+.menu{
+    
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:20px 40px;
+flex-wrap: wrap;
+width: 100%;
+
+}
+
+.menu-elem{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    margin-left: 120px;
+
+}
+
+.menu-icon{
+    color:white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.75;
+    transition: 0.3s;
+    
+}
+
+.logo{
+    display: flex;
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap:15px
+}
+
+.logo h1{
+         font-size: 50px;
+color: #e6c78f;
+margin-left: 400px;
+flex: 1;
+letter-spacing: 4px;
+text-shadow: 0 0 20px rgba(195,96,212,0.7);
+font-family:'Times New Roman', Times, serif;
+    }
+
+
+
+.logo img{
+   width:120px;
+height:120px;
+border-radius:50%;
+margin-left: 20px;
+}
+
+.Preta{
+width:150px;
+height:auto;
+}
+    
+    
+
+
+.nav{
+display:flex;
+align-items:center;
+gap:30px;
+margin-top:15px;
+padding-top: 20px;
+padding-left: -10px;
+margin-left: -10px;
+list-style:none;
+}
+
+nav ul li:hover{
+    background-color: beige;
+}
+
+.list{
+    color: #D6D0E0;
+    list-style: none;
+    display:flex;
+    list-style: none;
+display:flex;
+gap: 25px;
+margin-left: auto;
+align-items: center;
+
+}
+
+.list li a{
+    color:#D6D0E0;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+
+}
+
+.list li a::after{
+content:"";
+position:absolute;
+width:0;
+height:2px;
+bottom:-5px;
+left:0;
+background: #e6c78f;
+transition:0.3s;
+}
+
+.list li a:hover::after{
+width:100%;
+}
+
+.list li a:hover{
+color:#e6c78f;
+}
+
+
+
+h1 {
+    color: #e6c78f;
+letter-spacing: 4px;
+text-shadow: 0 0 20px rgba(195,96,212,0.7);
+font-family:'Times New Roman', Times, serif;
+margin: 0;
+padding: 0;
+    
+    
+}
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+
+    color: #ffffff;
+    font-size: 40px;
+color: #d6b3ff;
+text-shadow: 0 0 10px rgba(195, 96, 212, 0.5)
+    
+}
+
+h4{
+    display: grid;
+    position:absolute;
+    align-items: center;
+    text-align: center;
+    margin-left: 900px;
+    font-size: 50px;
+    margin-top: -700px
+
+}
+
+.Imagen-Preto{
+
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.div {
+    display: flex;
+    background-position: center;
+    background-size: cover
+
+
+}
+p{
+    margin:20px auto;
+    margin-top: 0;
+    font-size: 22px;
+line-height: 1.8;
+color: #f5f5f5;
+max-width: 900px;
+text-align: center;
+letter-spacing: 0.5px;
+text-shadow: 0 0 5px rgba(195,96,212,0.3);
+    
+}
+
+
